@@ -1,3 +1,9 @@
+workflow_dispatch:
+
+jobs:
+build-and-commit:
+runs-on: ubuntu-latest
+
 steps:
   # Etapa 1: Baixar o codigo do repositorio
   - name: Checkout do Codigo
